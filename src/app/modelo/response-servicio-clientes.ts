@@ -1,4 +1,4 @@
-import { Amigo } from './Amigo';
+import { Amigo } from './amigo';
 
 export class ResponseServicioClientes {
     id: number;
@@ -16,8 +16,8 @@ export class ResponseServicioClientes {
     address: string;
     about: string;
     registered: Date;
-    latitude: string;
-    longitude: string;
+    latitude: number;
+    longitude: number;
     tags: string;
     friends: Array<Amigo>;
     greeting: string;
