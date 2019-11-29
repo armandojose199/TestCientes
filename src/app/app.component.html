@@ -1,8 +1,16 @@
 
-<div class="background">
+<div class="container-fluid background">
 <br/><br/>
+<div class="row">
+  <div class="col-12">
 <h2 class="titulo">Aplicación  Cliente</h2>
-<button class="btn big" (click)="obtenerClientes()"> Presionar para Listar Clientes Activos/NoActivos</button>
+</div>
+</div>
+<div class="row" >
+  <div class="col-12">
+<button class="btn" (click)="obtenerClientes()"> Presionar para Listar Clientes Activos/NoActivos</button>
+</div>
+</div>
 <br/><br/>
 
 <div *ngIf="responseClientes">

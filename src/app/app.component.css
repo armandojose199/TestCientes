@@ -47,7 +47,6 @@
 }
 
 .btn {
-    margin-left: 285px;
     font-size: 18px;
     background: #8C3DFF;
     border-radius: 20px;
@@ -59,7 +58,7 @@
 }
 
 .titulo {
-    text-align: center;
+    text-align: left;
     font-family: 'Solway', serif;
     color:white;
 }
