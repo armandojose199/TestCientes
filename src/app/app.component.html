@@ -53,7 +53,10 @@
           <h6 class="card-title">Etiquetas: {{cliente.tags}}</h6>
           <h6 class="card-title">Saludo Personal: {{cliente.greeting}}</h6>
           <h6 class="card-title">Fruta Favorita: {{cliente.favoriteFruit}}</h6>
-          <h6 class="card-title">Lista de Amigos: {{cliente.friends}}</h6>
+          <h6 class="card-title"> Lista de Amigos</h6>
+          <ul>
+              <li *ngFor="let amigo of cliente.friends">{{ amigo.name }}</li>
+          </ul>
           </div>
     
         </div>

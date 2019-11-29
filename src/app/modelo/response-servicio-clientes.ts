@@ -1,5 +1,7 @@
+import { Amigo } from './Amigo';
+
 export class ResponseServicioClientes {
-    id: string;
+    id: number;
     guid: string;
     isActive: boolean;
     balance: string;
@@ -17,7 +19,7 @@ export class ResponseServicioClientes {
     latitude: string;
     longitude: string;
     tags: string;
-    friends: any[];
+    friends: Array<Amigo>;
     greeting: string;
     favoriteFruid: string;
 }
