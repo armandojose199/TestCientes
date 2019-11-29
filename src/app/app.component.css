@@ -1,0 +1,65 @@
+.background {
+    background: #B0A5C0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cuadro1{
+    background: rgb(47, 51, 177);
+    color: white;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.cuadroTexto2 {
+    background: rgb(228, 95, 183);
+    padding:20px;
+    border-radius: 10px;
+}
+
+.cuadroTexto1 {
+    background: #4C96DC;
+    padding:20px;
+    border-radius: 10px;
+    
+}
+
+.cuadroTexto1:hover {
+    background:#7FAFDC;
+
+}
+
+.cuadroTexto2:hover {
+    background:rgb(248, 90, 214);
+
+}
+
+.cuadro2{
+    background: #7E2092;
+    color: white;
+    border-radius: 10px; 
+}
+
+.card-img-top{
+    width: 120px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    margin-left: 35%;
+}
+
+.btn {
+    margin-left: 285px;
+    font-size: 18px;
+    background: #8C3DFF;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #6902FF;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Solway', serif;
+    color:white;
+}
